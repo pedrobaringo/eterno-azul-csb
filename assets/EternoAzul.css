@@ -1,0 +1,377 @@
+.custom-system-actor-content {
+	background: white;
+}
+.charname input[type="text"] {
+	font-size:35px;
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.marginzero {
+	margin:0px;
+}
+.borderright {
+	border-right:2px solid black;
+	padding-right:5px;
+}
+.panelhead {
+	gap:0px;
+	display:grid;
+	grid-template-columns:70% 30%;
+}
+.panelorigen {
+	display:grid;
+	grid-template-columns:20% 80%;
+	gap:0px;
+}
+.panelorigen input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.panelsenas input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.panelvinc input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.panelbrios {
+	display:grid;
+	grid-template-columns:30% 70%;
+	gap:0px;
+}
+.briosinput {
+	height:auto;
+	width:40px;
+	margin-left:25px;
+}
+.briosinput input[type="text"]{
+	background:transparent;
+	border-radius:50%;
+	height:40px;
+	width:40px;
+	border: 2px solid black;
+}
+.panelacc {
+	gap:0px;
+}
+.panelaccind {
+	display:grid;
+	grid-template-columns:23px 45% 51px;
+	gap:0px;
+}
+.discborder {
+	border-right:2px dotted black;
+}
+.panelsenas {
+	display:grid;
+	gap:0px;
+	grid-template-columns:23px 81% 51px;
+}
+.panelvinc {
+	display:grid;
+	gap:0px;
+	grid-template-columns:91% 9%;
+}
+.panheridas {
+	display:grid;
+	gap:0px;
+	grid-template-columns:7% 50% 21.5% 21.5%;
+}
+.panheridas input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.panelagdef input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.panelagdef {
+	display:grid;
+	gap:0px;
+	grid-template-columns:45% 10% 45%;
+}
+.panelagdefbig {
+	margin-top:10px;
+}
+.aptvinc {
+	display:grid;
+	grid-template-columns:60% 40%;
+	margin-top:10px;
+}
+.acccheck {
+	margin:0px;
+	width: 20px;
+}
+.acccheck input[type="checkbox"]{
+	-webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background-color: white;
+	flex: 0 0 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+	border:1.5px solid black;
+	transform: rotate(45deg);
+	margin-left:5px;
+}
+.acccheck input[type="checkbox"]:checked {
+	background-color:aqua;
+	flex: 0 0 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+	border:1.5px solid black;
+	transform: rotate(45deg);
+
+}
+.paneltop {
+	display:grid;
+	gap:0px;
+	grid-template-columns:40% 60% ;
+}
+.dropdice select{
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.senaarq {
+	margin-top: 1px;
+	margin-right:3px;
+}
+.apttable table {
+	background:transparent;
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+.apttable table td{
+	padding:0px;
+}
+.apttable table tr:first-child {
+	display:none;
+}
+.apttable table tr:nth-child(even) {
+	background:transparent;
+}
+.dice-roll .dice-formula {
+	display:none;
+}
+.dice-roll .dice-tooltip {
+	display: block;
+	pointer-events: none;
+}
+.dice-tooltip .dice-rolls {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.dice-tooltip .dice-rolls .roll.max {
+	filter: none;
+}
+.dice-tooltip .dice-rolls .roll.min {
+	filter: none;
+}
+.dice-tooltip .part-header {
+	display:none;
+}
+.dice-total {
+	display:none;
+}
+.dice-roll {
+	pointer-events: none;
+}
+.dice-roll .dice-tooltip {
+	display:flex;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.dice-tooltip .dice-rolls .roll.d6{
+	height:40px;
+	width:40px;
+	background-size:40px;
+	font-size:25px;
+	line-height:40px;
+}
+.dice-tooltip .dice-rolls .roll.d8{
+	height:40px;
+	width:40px;
+	background-size:40px;
+	font-size:25px;
+	line-height:40px;
+}
+.dice-tooltip .dice-rolls .roll.d10{
+	height:40px;
+	width:40px;
+	background-size:40px;
+	font-size:25px;
+	line-height:40px;
+}
+.dice-tooltip .dice-rolls .roll.d12{
+	height:40px;
+	width:40px;
+	background-size:40px;
+	font-size:25px;
+	line-height:40px;
+}
+.dice-tooltip .dice-rolls .roll.failure, .dice-tooltip .dice-rolls .roll.min {
+	color:black;
+}
+.dice-tooltip .dice-rolls .roll.success, .dice-tooltip .dice-rolls .roll.max {
+	color:black;
+}
+.repdice {
+    display: flex;
+    justify-content: space-evenly;
+}
+.repdie6 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.repdie8 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.repdie10 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.repdie12 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.repdie6 label {
+	padding-top:3px;
+    font-size: 1.8rem;
+    width: 2.6rem;
+    height: 2.6rem;
+	background-image: url(../assets/d6-grey.svg);
+	background-size: 2.6rem;
+	background-repeat:none;
+}
+.repdie8 label {
+	padding-top:3px;
+    font-size: 1.8rem;
+    width: 2.6rem;
+    height: 2.6rem;
+	background-image: url(../assets/d8-grey.svg);
+	background-size: 2.6rem;
+	background-repeat:none;
+}
+.repdie10 label {
+	padding-top:3px;
+    font-size: 1.8rem;
+    width: 2.6rem;
+    height: 2.6rem;
+	background-image: url(../assets/d10-grey.svg);
+	background-size: 2.6rem;
+	background-repeat:none;
+}
+.repdie12 label {
+	padding-top:3px;
+    font-size: 1.8rem;
+    width: 2.6rem;
+    height: 2.6rem;
+	background-image: url(../assets/d12-grey.svg);
+	background-size: 2.6rem;
+	background-repeat:none;
+}
+.enserestabla input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.enserestabla table {
+	background:transparent;
+	border:0px;
+}
+.enserestabla table tr{
+	display:grid;
+	grid-template-columns:43% 25% 10% 5% 5% 5% 7%;
+}
+.enserestabla table tr td:last-child{
+	margin-left:5px;
+}
+.enserestabla table tr td{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.enserestabla table tr td:nth-child(3) input[type="text"]{
+	text-align:center;
+}
+.armastabla input[type="text"] {
+	background:transparent;
+	border-width:0px;
+	border-bottom:1.5px solid black;
+	border-radius:0px;
+}
+.armastabla table {
+	background:transparent;
+	border:0px;
+}
+.armastabla table tr{
+	display:grid;
+	grid-template-columns:40% 10% 43% 7%;
+}
+.armastabla table tr td:last-child{
+	margin-left:5px;
+}
+.armastabla table tr td{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.armastabla table tr td:nth-child(2) input[type="text"]{
+	text-align:center;
+}
+.equipobusc input[type="checkbox"]{
+	flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+}
+.equipobusc input[type="checkbox"]:checked{
+	flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+}
+.equipobusc {
+	display:grid;
+	gap:0px;
+	grid-template-columns:auto auto auto auto auto auto auto auto auto auto;
+}
+.equipobusc div {
+	width:35px;
+}
+.panelpertarm {
+	display:grid;
+	grid-template-columns:55% 45%;
+}
+.ritualtab table{
+	background:transparent;
+	border:0px;
+}
+.ritualtab table tr:first-child{
+	display:none;
+}
+.panelrit {
+	margin-top:10px;;
+}
