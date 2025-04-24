@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Bookinsanity';
+  src: url('../assets/Bookinsanity.otf');
+}
 .custom-system-actor-content {
 	background: white;
 }
@@ -374,4 +378,314 @@
 }
 .panelrit {
 	margin-top:10px;;
+}
+.dice-tooltip .dice-rolls .roll.d4 {
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.dice-tooltip .dice-rolls .roll.d4 {
+    background-image: url(../assets/d4-grey.svg);
+}
+.chat-message .message-content h1{
+	font-size:34px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	border:0px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.chat-message .message-content h3{
+	font-size:25px;
+	text-align:center;
+	border:0px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.chat-message .message-content {
+	font-family: 'Modesto Condensed';
+	font-size:15px;
+	text-align:center;
+	border:0px;
+	}
+.chat-message {
+	background: white;
+	background-size:100% 100%;
+}
+.chat-message .message-header .message-sender{
+	color: black;
+	font-family: 'Modesto Condensed';
+	text-align:center;
+	font-size: 35px;
+	text-wrap: wrap;
+	line-height:100%;
+	margin-top:5px;
+	margin-bottom:5px;
+	white-space: normal;
+}
+.chat-message .message-header {
+	border-bottom: 2px solid darkred;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	text-wrap: wrap;
+	font-size:10px;
+}
+.briosbutton {
+	background: white;
+	font-family: 'Modesto Condensed';
+	font-size:20px;
+	margin-top:5px;
+	border-width:2px;
+	border-color:darkred;
+	box-shadow: 1px 1px 2px;
+}
+.briosbutton:hover {
+	background-color:darkred;
+	color: white;
+	box-shadow: 1px 1px 2px black;
+}
+.dice-tooltip .dice-rolls {
+	text-shadow: 3px 0px 2px white,-3px 0px 2px white,0px 3px 2px white,0px -3px 2px white,3px 3px 3px white,-3px 3px 3px white,3px 3px 3px white,-3px -3px 3px white;
+}
+.charname input[type="text"]{
+	font-family: 'Modesto Condensed';
+	font-size:50px;
+	background: transparent;
+	border:0px;
+	border-bottom:2px solid black;
+	border-radius:0px;
+}
+.title1 {
+	font-family: 'Modesto Condensed';
+	font-size:22px;
+}
+.title2 {
+	font-family: 'Modesto Condensed';
+	font-size:20px;
+}
+.title3 {
+	font-family: 'Modesto Condensed';
+	font-size:15px;
+}
+.enserestabla table tr:first-child , .armastabla table tr:first-child{
+	font-family: 'Modesto Condensed';
+	font-size:15px;
+}
+.tabpanel, .panelhead {
+	font-family:'Bookinsanity';
+}
+.tabpanel .item {
+	font-family: 'Modesto Condensed';
+	font-size:20px;
+}
+.tabpanel .item.active{
+	text-decoration: underline;
+	color:black;
+}
+.panelaccind {
+    display: grid;
+    grid-template-columns: 22px 45% 52px;
+    gap: 0px;
+}
+.panelsenas {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 22px 81% 52px;
+}
+.custom-system-user-inputs{
+	background:transparent;
+	border:0px;
+}
+.custom-system-user-input-button[data-action="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-action="add-10"] {
+	display:none;
+}
+.custom-system-user-inputs tr:nth-child(even) {
+	background-color:  transparent;
+}
+.custom-system-user-inputs thead{
+	display: none;
+}
+.custom-system-user-inputs {
+	font-family:'Bookinsanity';
+	font-size: 15px;
+}
+.window-app .window-content {
+	background:white;
+}
+.custom-system-user-inputs td button{
+	font-family: 'Bookinsanity';
+	font-size: 15px;
+}
+.custom-system-user-inputs td input[type="number"] {
+	text-align:center;
+	transform: scale(1);
+	font-family: 'Bookinsanity';
+	font-size: 15px;
+	height:100%;
+	max-width:40px;
+	background:transparent;
+    border-width: 0px;
+    border-bottom: 1.5px solid black;
+    border-radius: 0px;
+}
+.custom-system-user-input-button {
+	padding:0px;
+	margin:0px;
+	background: white;
+	font-family: 'Bookinsanity';
+	font-size:15px;
+	margin-top:5px;
+	border-width:2px;
+	border-color:darkred;
+	box-shadow: 1px 1px 2px;
+	width:30px;
+}
+.custom-system-user-input-button:hover {
+	background-color:darkred;
+	color: white;
+	box-shadow: 1px 1px 2px black;
+}
+.custom-system-user-input-block select {
+    background: transparent;
+    border-width: 0px;
+    border-bottom: 1.5px solid black;
+    border-radius: 0px;
+}
+.custom-system-user-input-block {
+	justify-content: center;
+}
+.sheet.journal-entry .journal-entry-page {
+	font-family: 'Bookinsanity';
+}
+.sheet.journal-entry .journal-entry-page h1, .sheet.journal-entry .journal-entry-page h2, .sheet.journal-entry .journal-entry-page h3, .sheet.journal-entry .journal-entry-page h4{
+	font-family: 'Modesto Condensed';
+}
+.sheet.journal-entry .journal-header .title {
+	font-family: 'Modesto Condensed';
+}
+.sheet.journal-entry .journal-sidebar {
+	font-family: 'Bookinsanity';
+}
+.panelequibotin {
+	display:grid;
+	gap:0px;
+	grid-template-columns:80% 20%;
+}
+.botinbox {
+	margin:0px;
+}
+.equipobusc input[type="checkbox"]:checked {
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+}
+.equipobusc input[type="checkbox"] {
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+}
+.equipobusc div {
+    width: 35px;
+}
+.senaspanelbig {
+	margin-left:5px;
+}
+.panelpertarm {
+    display: grid;
+    grid-template-columns: 55% 45%;
+	gap:0px;
+}
+.armaspanelbig {
+	margin-left:5px;
+}
+.aptvinc {
+	gap:0px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-top: 10px;
+}
+.vincpanelbig{
+	margin-left:5px;
+}
+.gravcurac input[type="text"]{
+	text-align:center;
+}
+.title1input input[type="text"]{
+	background:transparent;
+	border:0px;
+}
+.gravcurac {
+	margin:0px;
+}
+.repdie4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.repdie4 label {
+    padding-top: 3px;
+    font-size: 1.8rem;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-image: url(../assets/d4-grey.svg);
+    background-size: 2.6rem;
+    background-repeat: none;
+	font-family: 'Modesto Condensed';
+	padding-top:5px;
+}
+.repdie6 label {
+	font-family: 'Modesto Condensed';
+	padding-top:5px;
+}
+.repdie8 label {
+	font-family: 'Modesto Condensed';
+	padding-top:5px;
+}
+.repdie10 label {
+	font-family: 'Modesto Condensed';
+	padding-top:5px;
+}
+.repdie12 label {
+	font-family: 'Modesto Condensed';
+	padding-top:5px;
+}
+.sheet .custom-system-actor header.sheet-header .profile-img-container img {
+	display:block;
+	-webkit-transition-property: all; 
+	-webkit-transition-duration: 0.3s; 
+	-webkit-transition-timing-function: ease; 
+	z-index:999
+}
+.sheet .custom-system-actor header.sheet-header .profile-img-container img:hover {
+	transform: translate(50%, 50%) scale(2);
+}
+.chat-message .message-content {
+	font-family: 'Bookinsanity';
+	font-size: 20px;
+	text-align:justify;
+}
+.chat-message .message-content h1,.chat-message .message-content h2,.chat-message .message-content h3 {
+	font-family: 'Modesto Condensed';
+}
+.acttotlabel {
+	font-family: 'Modesto Condensed';
+	margin:0px;
+	font-size: 15px;
+}
+.camera-view .player-name span {
+	font-size: 30px;
 }
