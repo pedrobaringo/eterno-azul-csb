@@ -25,7 +25,7 @@ Hooks.once("ready", function() {
 			console.log('lalala');
 			let buttonId=Date.now();
 			let buttonId2=Date.now()+2;
-			let msg='<h1>Bienvenido al módulo deEterno Azul</h1><p>Importa los compendios para poder empezar a usar el módulo</p><button id='+buttonId2+' >Importa los compendios</button><button id='+buttonId+' >Ve al Tutorial</button>';
+			let msg='<h1>Bienvenido al módulo de Eterno Azul</h1><p>Importa los compendios para poder empezar a usar el módulo</p><button id='+buttonId2+' >Importa los compendios</button><button id='+buttonId+' >Ve al Tutorial</button>';
 			ChatMessage.create({
         		speaker: {alias:"Eterno Azul"},
         		content: msg,
@@ -45,12 +45,22 @@ Hooks.once("ready", function() {
 				const button2 = document.getElementById(buttonId2);
 				if (button2) {
 					button2.addEventListener("click",function () {
-						let collection2 = game.packs.get("eterno-azul-csb.actortemplates");
-						let folderident2=''
-						if (game.folders.getName("Templates Actores")) {
-							folderident2=game.folders.getName("Templates Actores").id;
+						let collection = game.packs.get("eterno-azul-csb.templates-objetos");
+						console.log(collection);
+						console.log(button2);
+						let folderident=''
+						if (game.folders.getName("Templates Objetos")) {
+							folderident=game.folders.getName("Templates Objetos").id;
 						}
-						let docs2 =  collection2.importAll({folderId: folderident2, folderName: "Templates Actores", keepId: true});
+						let docs = collection.importAll({folderId: folderident, folderName: "Templates Objetos", keepId: true});
+						setTimeout(() => {
+							let collection2 = game.packs.get("eterno-azul-csb.templates-actores");
+							let folderident2=''
+							if (game.folders.getName("Templates Actores")) {
+								folderident2=game.folders.getName("Templates Actores").id;
+							}
+							let docs2 =  collection2.importAll({folderId: folderident2, folderName: "Templates Actores", keepId: true});
+						}, 500);
 						game.user.setFlag("eterno-azul-csb", "welcomeMessage", true);
 						game.user.setFlag("eterno-azul-csb", "lastVersion", game.modules.get("eterno-azul-csb").version);
 					});
@@ -61,7 +71,7 @@ Hooks.once("ready", function() {
 		} else if (versactual!=game.user.getFlag("eterno-azul-csb", "lastVersion")) {
 			let buttonId=Date.now();
 			let buttonId2=Date.now()+2;
-			let msg='<h1>Bienvenido al módulo deEterno Azul</h1><p>Se ha actualizado el módulo desde la última vez que lo usaste. Importa los compendios para tener la última versión de las Templates de actores y objetos.</p><button id='+buttonId2+' >Importa los compendios</button><button id='+buttonId+' >Ve al Tutorial</button>';
+			let msg='<h1>Bienvenido al módulo de Eterno Azul</h1><p>Se ha actualizado el módulo desde la última vez que lo usaste. Importa los compendios para tener la última versión de las Templates de actores y objetos.</p><button id='+buttonId2+' >Importa los compendios</button><button id='+buttonId+' >Ve al Tutorial</button>';
 			ChatMessage.create({
 					speaker: {alias:"Eterno Azul"},
 					content: msg,
@@ -81,12 +91,23 @@ Hooks.once("ready", function() {
 				const button2 = document.getElementById(buttonId2);
 				if (button2) {
 					button2.addEventListener("click",function () {
-						let collection2 = game.packs.get("eterno-azul-csb.actortemplates");
-						let folderident2=''
-						if (game.folders.getName("Templates Actores")) {
-							folderident2=game.folders.getName("Templates Actores").id;
+						let collection = game.packs.get("eterno-azul-csb.templates-objetos");
+						console.log(collection);
+						console.log(button2);
+						let folderident=''
+						if (game.folders.getName("Templates Objetos")) {
+							folderident=game.folders.getName("Templates Objetos").id;
 						}
-						let docs2 =  collection2.importAll({folderId: folderident2, folderName: "Templates Actores", keepId: true});
+						let docs = collection.importAll({folderId: folderident, folderName: "Templates Objetos", keepId: true});
+						setTimeout(() => {
+							let collection2 = game.packs.get("eterno-azul-csb.templates-actores");
+							let folderident2=''
+							if (game.folders.getName("Templates Actores")) {
+								folderident2=game.folders.getName("Templates Actores").id;
+							}
+							let docs2 =  collection2.importAll({folderId: folderident2, folderName: "Templates Actores", keepId: true});
+						}, 500);
+						game.user.setFlag("eterno-azul-csb", "welcomeMessage", true);
 						game.user.setFlag("eterno-azul-csb", "lastVersion", game.modules.get("eterno-azul-csb").version);
 					});
 				}

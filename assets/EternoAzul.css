@@ -686,6 +686,47 @@
 	margin:0px;
 	font-size: 15px;
 }
-.camera-view .player-name span {
-	font-size: 30px;
+.fa-regular {
+	-webkit-appearance: initial;
+    appearance: initial;
+    margin: 0px;
+    background-color: white;
+    flex: 0 0 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border: 1.5px solid black;
+    transform: rotate(45deg);
+    margin-left: -10px;
+}
+.enserestablapert a, .enserestablapertarmas a {
+	border:0px;
+	padding:0px;
+	background:transparent;
+	white-space:wrap;
+}
+.enserestablapert table tr:not(:first-child) td:first-child, .enserestablapertarmas table tr:not(:first-child) td:first-child {
+	margin: 0.5em 0;
+}
+.enserestablapert a img, .enserestablapertarmas a img {
+	display:none;
+}
+.enserestablapert table, .enserestablapertarmas table {
+    background: transparent;
+    border: 0px;
+}
+.enserestablapert table tr:first-child, .enserestablapertarmas table tr:first-child {
+    font-family: 'Modesto Condensed';
+    font-size: 15px;
+}
+.enserestablapert table tr {
+    display: grid;
+    grid-template-columns: 35% 34% 9% 5% 5% 5% 7%;
+}
+.enserestablapertarmas table tr {
+    display: grid;
+    grid-template-columns: 41% 9% 43% 7%;
+}
+.enserestablapert table tr:nth-child(even),.enserestablapertarmas table tr:nth-child(even) {
+    background-color: rgb(197 197 197 / 20%);
 }

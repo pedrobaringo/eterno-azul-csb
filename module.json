@@ -1,7 +1,7 @@
 {
   "id": "eterno-azul-csb",
   "title": "Eterno Azul (CSB)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -22,12 +22,11 @@
       }
     ]
   },
-   "authors": [
+  "authors": [
     {
       "name": "Pedro Baringo",
       "url": "https://github.com/pedrobaringo",
       "discord": "pedrobari",
-	  "github": "pedrobaringo",
       "flags": {}
     }
   ],
@@ -37,12 +36,22 @@
       "label": "Actor_Templates",
       "path": "packs/actortemplates",
       "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "itemtemplates",
+      "label": "Item_Templates",
+      "path": "packs/itemtemplates",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "custom-system-builder",
-      "flags": {}
+      "system": "custom-system-builder"
     }
   ],
   "styles": [
@@ -53,5 +62,5 @@
   ],
   "url": "https://github.com/pedrobaringo/eterno-azul-csb",
   "manifest": "https://github.com/pedrobaringo/eterno-azul-csb/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/eterno-azul-csb/releases/download/1.1.0/eterno-azul-csb.zip"
+  "download": "https://github.com/pedrobaringo/eterno-azul-csb/releases/download/1.1.1/eterno-azul-csb.zip"
 }
