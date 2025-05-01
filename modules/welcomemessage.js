@@ -45,7 +45,7 @@ Hooks.once("ready", function() {
 				const button2 = document.getElementById(buttonId2);
 				if (button2) {
 					button2.addEventListener("click",function () {
-						let collection = game.packs.get("eterno-azul-csb.templates-objetos");
+						let collection = game.packs.get("eterno-azul-csb.itemtemplates");
 						console.log(collection);
 						console.log(button2);
 						let folderident=''
@@ -54,7 +54,7 @@ Hooks.once("ready", function() {
 						}
 						let docs = collection.importAll({folderId: folderident, folderName: "Templates Objetos", keepId: true});
 						setTimeout(() => {
-							let collection2 = game.packs.get("eterno-azul-csb.templates-actores");
+							let collection2 = game.packs.get("eterno-azul-csb.actortemplates");
 							let folderident2=''
 							if (game.folders.getName("Templates Actores")) {
 								folderident2=game.folders.getName("Templates Actores").id;
@@ -91,7 +91,7 @@ Hooks.once("ready", function() {
 				const button2 = document.getElementById(buttonId2);
 				if (button2) {
 					button2.addEventListener("click",function () {
-						let collection = game.packs.get("eterno-azul-csb.templates-objetos");
+						let collection = game.packs.get("eterno-azul-csb.itemtemplates");
 						console.log(collection);
 						console.log(button2);
 						let folderident=''
@@ -100,7 +100,7 @@ Hooks.once("ready", function() {
 						}
 						let docs = collection.importAll({folderId: folderident, folderName: "Templates Objetos", keepId: true});
 						setTimeout(() => {
-							let collection2 = game.packs.get("eterno-azul-csb.templates-actores");
+							let collection2 = game.packs.get("eterno-azul-csb.actortemplates");
 							let folderident2=''
 							if (game.folders.getName("Templates Actores")) {
 								folderident2=game.folders.getName("Templates Actores").id;
