@@ -738,3 +738,111 @@
 .textosobj {
 	font-family: 'Bookinsanity';
 }
+.mejorastable {
+	background:transparent;
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+.mejorastable table {
+	background:transparent;
+	border:0px;
+}
+.mejorastable table tr{
+	display:grid;
+	gap:0px;
+	grid-template-columns:93% 7%;
+	margin-bottom:10px;
+}
+.mejorastable table td{
+	padding:0px;
+	margin:0px;
+}
+.mejorastable table td:nth-child(1){
+	order:1;
+}
+.mejorastable table td:nth-child(2){
+	order:3;
+	grid-column: 1 / span 2;
+}
+.mejorastable table td:nth-child(3){
+	order:2;
+}
+.mejorastable table tr:first-child {
+	display:none;
+}
+.mejorastable table tr:nth-child(even) {
+	background:transparent;
+}
+.titmejor {
+	margin:0px;
+}
+.titmejor input[type="text"]{
+	margin:0px;
+	font-family: 'Modesto Condensed';
+	font-size:20px;
+	border-width:0px 0px 1.5px 0px;
+	border-radius:0px;
+	border-color:black;
+	background:transparent;
+}
+.descmej {
+	font-family: 'Bookinsanity';
+}
+.panelcaract {
+	font-family: 'Bookinsanity';
+}
+.panelcaract {
+	gap:0px;
+}
+.panelclasenav {
+	display:grid;
+	grid-template-columns:17% 83%;
+}
+.paneldadotrip {
+	display:grid;
+	grid-template-columns:35% 15% 10% 40%;
+	gap:10px;
+}
+.inputtexts input[type="text"]{
+	margin:0px;
+	font-family: 'Modesto Condensed';
+	font-size:20px;
+	border-width:0px 0px 1.5px 0px;
+	border-radius:0px;
+	border-color:black;
+	background:transparent;
+}
+.panelcasco {
+	display:grid;
+	grid-template-columns:15% 35%;
+}
+.cargtable {
+	background:transparent;
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+.cargtable table {
+	background:transparent;
+	border:0px;
+}
+.cargtable table tr:first-child{
+	font-family: 'Modesto Condensed';
+}
+.nomcarg, .valorcarginput, .intinput {
+	margin:0px;
+}
+.nomcarg input[type="text"], .valorcarginput input[type="text"], .intinput select {
+	margin:0px;
+	font-family: 'Bookinsanity';
+	border-width:0px 0px 1.5px 0px;
+	border-radius:0px;
+	border-color:black;
+	background:transparent;
+}
+.cargtable table tr{
+	display:grid;
+	grid-template-columns:56% 19% 15% 8%;
+	gap:5px;
+}

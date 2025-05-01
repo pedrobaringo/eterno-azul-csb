@@ -1,8 +1,23 @@
-2025/05/01-10:03:38.046121 7fb8457fa700 Recovering log #4
-2025/05/01-10:03:38.053221 7fb8457fa700 Delete type=3 #2
-2025/05/01-10:03:38.053272 7fb8457fa700 Delete type=0 #4
-2025/05/01-10:05:26.686195 7fb843ff7700 Level-0 table #9: started
-2025/05/01-10:05:26.686223 7fb843ff7700 Level-0 table #9: 0 bytes OK
-2025/05/01-10:05:26.689188 7fb843ff7700 Delete type=0 #7
-2025/05/01-10:05:26.691614 7fb843ff7700 Manual compaction at level-0 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
-2025/05/01-10:05:26.695869 7fb843ff7700 Manual compaction at level-1 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
+2025/05/01-20:55:35.061647 7fb845ffb700 Recovering log #11
+2025/05/01-20:55:35.061761 7fb845ffb700 Level-0 table #13: started
+2025/05/01-20:55:35.065098 7fb845ffb700 Level-0 table #13: 5150 bytes OK
+2025/05/01-20:55:35.109395 7fb845ffb700 Delete type=3 #10
+2025/05/01-20:55:35.109447 7fb845ffb700 Delete type=0 #11
+2025/05/01-20:57:51.727028 7fb843ff7700 Level-0 table #16: started
+2025/05/01-20:57:51.727057 7fb843ff7700 Level-0 table #16: 0 bytes OK
+2025/05/01-20:57:51.729292 7fb843ff7700 Delete type=0 #14
+2025/05/01-20:57:51.731933 7fb843ff7700 Manual compaction at level-0 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at '!items!AjsC24bEpD5PC3rO' @ 2 : 1
+2025/05/01-20:57:51.731941 7fb843ff7700 Compacting 1@0 + 0@1 files
+2025/05/01-20:57:51.735356 7fb843ff7700 Generated table #17@0: 1 keys, 5150 bytes
+2025/05/01-20:57:51.735373 7fb843ff7700 Compacted 1@0 + 0@1 files => 5150 bytes
+2025/05/01-20:57:51.737458 7fb843ff7700 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/01-20:57:51.737539 7fb843ff7700 Delete type=2 #13
+2025/05/01-20:57:51.740209 7fb843ff7700 Manual compaction at level-0 from '!items!AjsC24bEpD5PC3rO' @ 2 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
+2025/05/01-20:57:51.740343 7fb843ff7700 Manual compaction at level-1 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at '!items!AjsC24bEpD5PC3rO' @ 2 : 1
+2025/05/01-20:57:51.740353 7fb843ff7700 Compacting 1@1 + 1@2 files
+2025/05/01-20:57:51.744709 7fb843ff7700 Generated table #18@1: 1 keys, 5150 bytes
+2025/05/01-20:57:51.744724 7fb843ff7700 Compacted 1@1 + 1@2 files => 5150 bytes
+2025/05/01-20:57:51.747427 7fb843ff7700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/01-20:57:51.747511 7fb843ff7700 Delete type=2 #17
+2025/05/01-20:57:51.747590 7fb843ff7700 Delete type=2 #5
+2025/05/01-20:57:51.753675 7fb843ff7700 Manual compaction at level-1 from '!items!AjsC24bEpD5PC3rO' @ 2 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
