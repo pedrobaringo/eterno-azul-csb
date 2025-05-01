@@ -686,7 +686,7 @@
 	margin:0px;
 	font-size: 15px;
 }
-.fa-regular {
+.chekequi {
 	-webkit-appearance: initial;
     appearance: initial;
     margin: 0px;
@@ -729,4 +729,12 @@
 }
 .enserestablapert table tr:nth-child(even),.enserestablapertarmas table tr:nth-child(even) {
     background-color: rgb(197 197 197 / 20%);
+}
+.paneldefdano {
+	font-family: 'Bookinsanity';
+	display: grid;
+    grid-template-columns: 10% 15%;
+}
+.textosobj {
+	font-family: 'Bookinsanity';
 }
