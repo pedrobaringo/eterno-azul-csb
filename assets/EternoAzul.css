@@ -841,8 +841,8 @@
 	border-color:black;
 	background:transparent;
 }
-.cargtable table tr{
-	display:grid;
-	grid-template-columns:56% 19% 15% 8%;
-	gap:5px;
+.cargtable table tr {
+    display: grid;
+    grid-template-columns: 48% 13% 19% 8% 8%;
+    gap: 5px;
 }
