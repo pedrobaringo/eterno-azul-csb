@@ -1,17 +1,20 @@
 {
   "id": "eterno-azul-csb",
   "title": "Eterno Azul (CSB)",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13.351",
+    "verified": "13.351"
   },
   "relationships": {
     "systems": [
       {
         "id": "custom-system-builder",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+		"minimum": "5.1.0",
+		"verified": "5.1.0"
+		}
       }
     ],
     "recommends": [
@@ -62,5 +65,5 @@
   ],
   "url": "https://github.com/pedrobaringo/eterno-azul-csb",
   "manifest": "https://github.com/pedrobaringo/eterno-azul-csb/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/eterno-azul-csb/releases/download/1.2.1/eterno-azul-csb.zip"
+  "download": "https://github.com/pedrobaringo/eterno-azul-csb/releases/download/1.3.0/eterno-azul-csb.zip"
 }

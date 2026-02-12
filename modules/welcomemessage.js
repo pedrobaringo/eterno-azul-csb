@@ -63,6 +63,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("eterno-azul-csb", "welcomeMessage", true);
 						game.user.setFlag("eterno-azul-csb", "lastVersion", game.modules.get("eterno-azul-csb").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				}
 				}, 100);
@@ -109,6 +111,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("eterno-azul-csb", "welcomeMessage", true);
 						game.user.setFlag("eterno-azul-csb", "lastVersion", game.modules.get("eterno-azul-csb").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				}
 				}, 500);

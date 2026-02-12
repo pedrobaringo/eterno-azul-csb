@@ -2,8 +2,83 @@
   font-family: 'Bookinsanity';
   src: url('../assets/Bookinsanity.otf');
 }
-.custom-system-actor-content {
-	background: white;
+.character .window-content, .equippableItem .window-content, .custom-dialog .window-content {
+	background-color: white;
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	padding:1rem;
+	color: black;
+}
+.character .grid {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.character input[type=text], .equippableItem input[type=text], .custom-dialog input[type=text]{
+	box-shadow:0px 0px;
+	color: black;
+    background:transparent;
+    border:1px solid black;
+}
+.character input[type=number], .equippableItem input[type=number], .custom-dialog input[type=number]{
+	box-shadow:0px 0px;
+	color: black;
+    background:transparent;
+    border:1px solid black;
+}
+.character select, .equippableItem select, .custom-dialog select{
+	background:transparent;
+	color: black;
+    border:1px solid black;
+}
+.custom-system-user-inputs td button {
+    color: black;
+}
+.character summary:before, .equippableItem summary:before, .custom-dialog summary:before {
+	border-color: transparent transparent transparent #000000;
+}
+.character input[type="checkbox"]::before, .equippableItem input[type="checkbox"]::before, .custom-dialog input[type="checkbox"]::before {
+    content:"";
+}
+.character  input[type="checkbox"]:checked::after, .equippableItem  input[type="checkbox"]:checked::after, .custom-dialog  input[type="checkbox"]:checked::after {
+    content: "";
+}
+.character input[type="checkbox"]:checked::before, .equippableItem input[type="checkbox"]:checked::before,  .custom-dialog input[type="checkbox"]:checked::before {
+    content: "";
+}
+.custom-dialog .form-group > label {
+	color: black;
+}
+.character table, .equippableItem table, .custom-dialog table {
+	background:transparent;
+}
+.custom-system-number-field-control {
+	background:transparent;
+	color:black;
+	border:1px solid black;
+}
+.character input[type="radio"]::before, .equippableItem input[type="radio"]::before, .custom-dialog input[type="radio"]::before {
+    content:"\f10c";
+    color: black;
+    font-weight:normal;
+}
+.character input[type="radio"]:checked::before, .character  input[type="radio"]:checked::after, .equippableItem input[type="radio"]:checked::before,  .equippableItem  input[type="radio"]:checked::after, .custom-dialog input[type="radio"]:checked::before, .custom-dialog  input[type="radio"]:checked::after {
+    content: "\f192";
+    color: black;
+}
+.character .content-link, .equippableItem .content-link, .custom-dialog .content-link {
+  background:transparent;
+  color: black;
+  border: 0px;
+}
+.custom-system-user-input-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px groove black;
+    color: black
+}
+.custom-dialog .standard-form .form-footer > button {
+  color:black;
+  background:transparent;
+  border: 2px groove black;
 }
 .charname input[type="text"] {
 	font-size:35px;
@@ -19,12 +94,12 @@
 	border-right:2px solid black;
 	padding-right:5px;
 }
-.panelhead {
+.panelhead  > :first-child{
 	gap:0px;
 	display:grid;
 	grid-template-columns:70% 30%;
 }
-.panelorigen {
+.panelorigen  > :first-child{
 	display:grid;
 	grid-template-columns:20% 80%;
 	gap:0px;
@@ -47,7 +122,7 @@
 	border-bottom:1.5px solid black;
 	border-radius:0px;
 }
-.panelbrios {
+.panelbrios  > :first-child{
 	display:grid;
 	grid-template-columns:30% 70%;
 	gap:0px;
@@ -67,7 +142,7 @@
 .panelacc {
 	gap:0px;
 }
-.panelaccind {
+.panelaccind  > :first-child{
 	display:grid;
 	grid-template-columns:23px 45% 51px;
 	gap:0px;
@@ -75,17 +150,17 @@
 .discborder {
 	border-right:2px dotted black;
 }
-.panelsenas {
+.panelsenas  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:23px 81% 51px;
 }
-.panelvinc {
+.panelvinc  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:91% 9%;
 }
-.panheridas {
+.panheridas  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:7% 50% 21.5% 21.5%;
@@ -102,7 +177,7 @@
 	border-bottom:1.5px solid black;
 	border-radius:0px;
 }
-.panelagdef {
+.panelagdef  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:45% 10% 45%;
@@ -110,7 +185,7 @@
 .panelagdefbig {
 	margin-top:10px;
 }
-.aptvinc {
+.aptvinc  > :first-child{
 	display:grid;
 	grid-template-columns:60% 40%;
 	margin-top:10px;
@@ -142,7 +217,7 @@
 	transform: rotate(45deg);
 
 }
-.paneltop {
+.paneltop  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:40% 60% ;
@@ -152,6 +227,7 @@
 	border-width:0px;
 	border-bottom:1.5px solid black;
 	border-radius:0px;
+	padding:0px;
 }
 .senaarq {
 	margin-top: 1px;
@@ -357,7 +433,7 @@
     width: 20px;
     height: 20px;
 }
-.equipobusc {
+.equipobusc  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:auto auto auto auto auto auto auto auto auto auto;
@@ -365,7 +441,7 @@
 .equipobusc div {
 	width:35px;
 }
-.panelpertarm {
+.panelpertarm  > :first-child{
 	display:grid;
 	grid-template-columns:55% 45%;
 }
@@ -449,6 +525,7 @@
 	border-width:2px;
 	border-color:darkred;
 	box-shadow: 1px 1px 2px;
+	width:100%;
 }
 .briosbutton:hover {
 	background-color:darkred;
@@ -493,12 +570,12 @@
 	text-decoration: underline;
 	color:black;
 }
-.panelaccind {
+.panelaccind  > :first-child{
     display: grid;
     grid-template-columns: 22px 45% 52px;
     gap: 0px;
 }
-.panelsenas {
+.panelsenas  > :first-child{
     display: grid;
     gap: 0px;
     grid-template-columns: 22px 81% 52px;
@@ -507,10 +584,10 @@
 	background:transparent;
 	border:0px;
 }
-.custom-system-user-input-button[data-action="sub-10"] {
+.custom-system-user-input-button[data-inputaction="sub-10"] {
 	display:none;
 }
-.custom-system-user-input-button[data-action="add-10"] {
+.custom-system-user-input-button[data-inputaction="add-10"] {
 	display:none;
 }
 .custom-system-user-inputs tr:nth-child(even) {
@@ -580,13 +657,10 @@
 .sheet.journal-entry .journal-sidebar {
 	font-family: 'Bookinsanity';
 }
-.panelequibotin {
+.panelequibotin  > :first-child{
 	display:grid;
 	gap:0px;
 	grid-template-columns:80% 20%;
-}
-.botinbox {
-	margin:0px;
 }
 .equipobusc input[type="checkbox"]:checked {
     flex: 0 0 20px;
@@ -604,7 +678,7 @@
 .senaspanelbig {
 	margin-left:5px;
 }
-.panelpertarm {
+.panelpertarm  > :first-child{
     display: grid;
     grid-template-columns: 55% 45%;
 	gap:0px;
@@ -612,7 +686,7 @@
 .armaspanelbig {
 	margin-left:5px;
 }
-.aptvinc {
+.aptvinc  > :first-child{
 	gap:0px;
     display: grid;
     grid-template-columns: 55% 45%;
@@ -715,6 +789,12 @@
     background: transparent;
     border: 0px;
 }
+.enserestablapert table tr td, .enserestablapertarmas table tr td {
+	padding:0px;
+}
+.enserestablapert table tr td div, .enserestablapertarmas table tr td div{
+	height:100%
+}
 .enserestablapert table tr:first-child, .enserestablapertarmas table tr:first-child {
     font-family: 'Modesto Condensed';
     font-size: 15px;
@@ -730,7 +810,7 @@
 .enserestablapert table tr:nth-child(even),.enserestablapertarmas table tr:nth-child(even) {
     background-color: rgb(197 197 197 / 20%);
 }
-.paneldefdano {
+.paneldefdano  > :first-child{
 	font-family: 'Bookinsanity';
 	display: grid;
     grid-template-columns: 10% 15%;
@@ -795,11 +875,11 @@
 .panelcaract {
 	gap:0px;
 }
-.panelclasenav {
+.panelclasenav  > :first-child{
 	display:grid;
 	grid-template-columns:17% 83%;
 }
-.paneldadotrip {
+.paneldadotrip  > :first-child{
 	display:grid;
 	grid-template-columns:35% 15% 10% 40%;
 	gap:10px;
@@ -813,7 +893,7 @@
 	border-color:black;
 	background:transparent;
 }
-.panelcasco {
+.panelcasco  > :first-child{
 	display:grid;
 	grid-template-columns:15% 35%;
 }
