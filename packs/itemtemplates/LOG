@@ -1,8 +1,15 @@
-2025/05/06-22:39:18.163550 7fb845ffb700 Recovering log #39
-2025/05/06-22:39:18.170390 7fb845ffb700 Delete type=0 #39
-2025/05/06-22:39:18.170429 7fb845ffb700 Delete type=3 #37
-2025/05/06-22:39:57.098871 7fb843ff7700 Level-0 table #44: started
-2025/05/06-22:39:57.098902 7fb843ff7700 Level-0 table #44: 0 bytes OK
-2025/05/06-22:39:57.100890 7fb843ff7700 Delete type=0 #42
-2025/05/06-22:39:57.105079 7fb843ff7700 Manual compaction at level-0 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
-2025/05/06-22:39:57.114053 7fb843ff7700 Manual compaction at level-1 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
+2026/02/16-13:43:45.648156 7fb9e27bf700 Recovering log #43
+2026/02/16-13:43:45.652532 7fb9e27bf700 Delete type=0 #43
+2026/02/16-13:43:45.652557 7fb9e27bf700 Delete type=3 #41
+2026/02/16-14:24:05.814146 7fb4c3fff700 Level-0 table #48: started
+2026/02/16-14:24:05.818738 7fb4c3fff700 Level-0 table #48: 5162 bytes OK
+2026/02/16-14:24:05.820336 7fb4c3fff700 Delete type=0 #46
+2026/02/16-14:24:05.834425 7fb4c3fff700 Manual compaction at level-0 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)
+2026/02/16-14:24:05.834466 7fb4c3fff700 Manual compaction at level-1 from '!items!AjsC24bEpD5PC3rO' @ 72057594037927935 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at '!items!AjsC24bEpD5PC3rO' @ 3 : 1
+2026/02/16-14:24:05.834469 7fb4c3fff700 Compacting 1@1 + 1@2 files
+2026/02/16-14:24:05.837589 7fb4c3fff700 Generated table #49@1: 1 keys, 5162 bytes
+2026/02/16-14:24:05.837600 7fb4c3fff700 Compacted 1@1 + 1@2 files => 5162 bytes
+2026/02/16-14:24:05.839241 7fb4c3fff700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/16-14:24:05.839286 7fb4c3fff700 Delete type=2 #48
+2026/02/16-14:24:05.839334 7fb4c3fff700 Delete type=2 #18
+2026/02/16-14:24:05.841167 7fb4c3fff700 Manual compaction at level-1 from '!items!AjsC24bEpD5PC3rO' @ 3 : 1 .. '!items!AjsC24bEpD5PC3rO' @ 0 : 0; will stop at (end)

@@ -777,7 +777,8 @@
 	border:0px;
 	padding:0px;
 	background:transparent;
-	white-space:wrap;
+	white-space: pre-wrap;
+ word-break: keep-all;
 }
 .enserestablapert table tr:not(:first-child) td:first-child, .enserestablapertarmas table tr:not(:first-child) td:first-child {
 	margin: 0.5em 0;
