@@ -921,9 +921,13 @@
 	border-radius:0px;
 	border-color:black;
 	background:transparent;
+	padding:0px;
 }
 .cargtable table tr {
     display: grid;
     grid-template-columns: 48% 13% 19% 8% 8%;
-    gap: 5px;
+    gap: 0px;
+}
+.cargtable table tr td:last-child {
+	padding-left:0px;
 }
