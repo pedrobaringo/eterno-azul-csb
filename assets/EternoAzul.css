@@ -620,3 +620,7 @@ display:grid;
 grid-template-columns: 35% 65%;
 gap:0px;
 }
+.panelbotin >:first-child {
+display:grid;
+grid-template-columns: 25% 20%;
+}
