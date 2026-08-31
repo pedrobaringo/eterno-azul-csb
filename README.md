@@ -8,7 +8,7 @@ Aquí puedes descargarte las reglas de inicio de Eterno Azul: [https://shadowlan
 
 ## Índice
 
-- Instalación
+- [Instalación](#instalacion)
 - Crear un PJ
 - Crear un PJ
 - Crear armas y objetos
@@ -206,5 +206,3 @@ El resultado de la tirada se mostrará en el chat, con una tarjeta que te indica
 
 <img width="396" height="177" alt="image 25" src="https://github.com/user-attachments/assets/5c1477b2-cf3a-4608-b266-81fbc648d46b" />
 
-
-Finalmente, si necesitas configurar exactamente qu
