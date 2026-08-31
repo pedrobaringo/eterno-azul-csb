@@ -9,11 +9,11 @@ Aquí puedes descargarte las reglas de inicio de Eterno Azul: [https://shadowlan
 ## Índice
 
 - [Instalación](#instalación)
-- Crear un PJ
-- Crear un PJ
-- Crear armas y objetos
-- Crear un navío.
-- Tiradas
+- [Crear un PJ](#crear-un-pj)
+- [Crear un PNJ](#crear-un-pnj)
+- [Crear un navío](#crear-navío)
+- [Crear armas y objetos](#crear-pertrechos,-armas,-armaduras,-baterías-y-munición)
+- [Tiradas](#tiradas-y-desafíos)
 
 ## Instalación
 
