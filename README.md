@@ -8,7 +8,7 @@ Aquí puedes descargarte las reglas de inicio de Eterno Azul: [https://shadowlan
 
 ## Índice
 
-- [Instalación](#instalacion)
+- [Instalación](#instalación)
 - Crear un PJ
 - Crear un PJ
 - Crear armas y objetos
