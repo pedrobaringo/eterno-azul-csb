@@ -1,10 +1,11 @@
 {
   "id": "eterno-azul-csb",
   "title": "Eterno Azul (CSB)",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "compatibility": {
-    "minimum": "13.351",
-    "verified": "14"
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
   },
   "relationships": {
     "systems": [
@@ -12,9 +13,9 @@
         "id": "custom-system-builder",
         "type": "system",
         "compatibility": {
-		"minimum": "5.2.1",
-		"verified": "6.0.2"
-		}
+          "minimum": "6.1.2",
+          "verified": "6.1.2"
+        }
       }
     ],
     "recommends": [
@@ -43,7 +44,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "itemtemplates",
@@ -54,16 +56,21 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "custom-system-builder"
+      "system": "custom-system-builder",
+      "flags": {}
     }
   ],
   "styles": [
-    "assets/EternoAzul.css"
+    {
+      "src": "assets/EternoAzul.css"
+    }
   ],
   "esmodules": [
     "modules/welcomemessage.js"
   ],
   "url": "https://github.com/pedrobaringo/eterno-azul-csb",
   "manifest": "https://github.com/pedrobaringo/eterno-azul-csb/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/eterno-azul-csb/releases/download/2.0.1/eterno-azul-csb.zip"
+  "download": "https://github.com/pedrobaringo/eterno-azul-csb/releases/download/2.0.2/eterno-azul-csb.zip",
+  "description": "",
+  "flags": {}
 }
